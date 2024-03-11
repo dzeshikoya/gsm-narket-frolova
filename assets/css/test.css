@@ -628,6 +628,7 @@ header{
    padding-bottom:70px;
    text-align: center;
    /* line-height: 29px; */
+   max-height:165px;
 
    margin-top: 0;
    margin-bottom:0;
@@ -655,6 +656,7 @@ header{
 .way-5{
   border-radius:110px;
   width:570px;
+  
   margin-left:1em;
   color:white;
   /* border-style: none; */
@@ -1549,7 +1551,7 @@ width:91px;
 }
 
 .site-info ul{
-  max-width:var(--main-width);
+  width:var(--main-width);
   margin-left: auto;
   margin-right: auto;
  display: flex;
@@ -1579,7 +1581,9 @@ font-size:12px;
 }
 
 .site-info li:not(:first-child){
-  margin-left:5.3em;
+  /* margin-left:5.3em; */
+
+  margin-left:auto;
 
   /* color:blue; */
 }
