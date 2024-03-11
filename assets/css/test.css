@@ -693,6 +693,12 @@ header{
 
 }
 
+.part-title span{
+color:#2392B5;
+}
+
+
+
 .part-title-smaller{
   /* size:40px; */
   font-size:24px;
@@ -1560,6 +1566,7 @@ width:91px;
 display: inline; 
 list-style-type: none;
 margin: 0;
+font-size:12px;
 /* font-size: 12px; */
 
 /* border: 1px solid red; */

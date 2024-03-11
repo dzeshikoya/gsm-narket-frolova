@@ -126,7 +126,7 @@
 				<div class = "order-ways-shapes">
 					<p class = "way-1">ЖД ПОСТАВКА</p>
 					<p class = "way-2">Бензовозом</p>
-					<p class = "way-3">Самовывоз с нефтебазы</p>
+					<p class = "way-3">Самовывоз<br> с нефтебазы</p>
 
 				</div>
 
@@ -180,7 +180,7 @@
 			</div>
 
 			<div class = "product-credit">
-				<h1 class="part-title">Нефтепродукты в рассрочку</h1>
+				<h1 class="part-title">Нефтепродукты <span>в рассрочку</span></h1>
 
 				<p  class = "part-small-title">0% переплат</p>
 
