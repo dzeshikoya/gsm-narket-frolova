@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 	<div class = "main">
-		<div class="to-order-background" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/banner-truck-1.png); ">
+		<div class="to-order-background" >
 			<div class = "to-order">
 				<img class = "triangle-big" src = "<?php echo get_template_directory_uri();?>/assets/img/triangle-big-new.png); ">
 
@@ -12,7 +12,7 @@
 
 						<div class = "about-order">
 							<h3 class = "min-price">От 25 рублей за литр</h3>
-							<h1 class = "where-order">Оптовые поставки <span>ГСМ</span> в новосибирской обл в <span>г. Новосибирске</span></h1>
+							<h1 class = "where-order">Оптовые поставки <span>ГСМ</span> в Новосибирской обл в <span>г. Новосибирске</span></h1>
 							<!-- <button class = "ask-price">Запросить прайс</button> -->
 							<a href="#" class="about-order-button">Запросить прайс</a>
 
@@ -24,29 +24,6 @@
 									<h3 class = "form-name">Заказать</h5>
 									<input class = "input-for-name" type="text" size="" name="person-name" placeholder="ваше имя">
 									<input class = "input-for-name" type="text" size="" name="person-phone"  placeholder="номер телефона">
-
-
-									<style>
-										.checkbox-other span:before {
-											content: "";
-											display: inline-block;
-											width: 22px;
-											height: 22px;
-											position: absolute;
-											left: 0;
-											top: 0;
-											background: url(<?php echo get_template_directory_uri();?>/assets/img/checkbox-empty.png) 0 0 no-repeat;
-											transition: background 0.3s ease;
-											
-										}
-
-										/* Checked */
-										.checkbox-other input[type=checkbox]:checked + span:before {
-											background-image: url(<?php echo get_template_directory_uri();?>/assets/img/checkbox-checked.png);
-										}
-
-									</style>
-									
 
 
 									<div class = "checkbox-rows">
@@ -119,7 +96,7 @@
 		<div class = "main-part-1">
 
 			<div class = "order-ways">
-				<h1 class="part-title">Способы доставки ГСМ</h1>
+				<h2 class="part-title">Способы доставки ГСМ</h2>
 
 				<p class = "part-small-title">чем мы занимаемся</p>
 
@@ -132,12 +109,12 @@
 
 				<div class = "order-ways-shapes">
 					<p class = "way-4">танкером</p>
-					<p class = "way-5" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/oil-rectangle.png); border-style: none;">
+					<p class = "way-5">
 					через партнеров в регионах
 					<img src = "<?php echo get_template_directory_uri();?>/assets/img/mouse-pointer.png);" class = "mouse-pointer">
 
 					</p>
-					<p class = "way-6">Самовывоз с нпз</p>
+					<p class = "way-6">Самовывоз<br> с нпз</p>
 
 				</div>
 
@@ -145,7 +122,7 @@
 			</div>
 
 			<div class = "advantages">
-				<h1 class="part-title">Наши преимущества</h1>
+				<h2 class="part-title">Наши преимущества</h2>
 
 				<p  class = "part-small-title">Опыт, накопленный годами</p>
 
@@ -180,7 +157,7 @@
 			</div>
 
 			<div class = "product-credit">
-				<h1 class="part-title">Нефтепродукты <span>в рассрочку</span></h1>
+				<h2 class="part-title">Нефтепродукты <span>в рассрочку</span></h2>
 
 				<p  class = "part-small-title">0% переплат</p>
 
@@ -218,7 +195,7 @@
 			</div>
 
 			<div class = "partners">
-				<h1 class="part-title">Партнеры</h1>
+				<h2 class="part-title">Партнеры</h2>
 
 				<p  class = "part-small-title">С кем мы работаем </p>
 
@@ -249,7 +226,7 @@
 				
 				<div class = "about-company-titles">
 					
-					<h1 class = "part-title">О компании</h1>
+					<h2 class = "part-title">О компании</h2>
 					
 
 					<p  class = "part-small-title">О нас</p>
@@ -272,7 +249,7 @@
 
 		</div>
 
-		<div class="our-policy-background" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/banner-truck-2.png); ">
+		<div class="our-policy-background">
 
 			<img class = "triangle" src = "<?php echo get_template_directory_uri();?>/assets/img/triangle.png); ">
 			
@@ -297,7 +274,7 @@
 		<div class = "main-part-2">
 
 			<div class = "work-stages">
-				<h1 class="part-title">Этапы работы</h1>
+				<h2 class="part-title">Этапы работы</h2>
 				<p  class = "part-small-title">как мы работаем</p>
 
 				<div class = "about-work-stages">
@@ -318,7 +295,7 @@
 			</div>
 
 			<div class = "delivery">
-				<h1 class="part-title">Поставки дизельного <br>топлива и нефтепродуктов</h1>
+				<h2 class="part-title">Поставки дизельного <br>топлива и нефтепродуктов</h2>
 				<p  class = "part-small-title">ГСМ-МАРКЕТ</p>
 
 				<div class = "about-delivery">
@@ -338,7 +315,7 @@
 			</div>
 
 			<div class = "delivery-part2">
-				<h1 class="part-title-smaller">Поставки дизельного топлива и нефтепродуктов</h1>
+				<h2 class="part-title-smaller">Поставки дизельного топлива и нефтепродуктов</h2>
 
 				<div class = "about-work-stages">
 					<p  class = "text-about">Мы ценим время клиентов и дорожим своей репутацией, поэтому нацелены на построение долговременных, продуктивных взаимоотношений. ГСМ-МАРКЕТ – это понятные, честные и прозрачные схемы работы, отсутствие скрытых платежей, возможность <u>купить дизельное топливо</u> по индивидуальной расчетной схеме с удобным способом оплаты. Вся реализуемая топливная продукция соответствует показателям качества, государственным стандартам, международным регламентам экологической безопасности.</p>

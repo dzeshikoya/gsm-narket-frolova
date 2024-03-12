@@ -39,7 +39,7 @@
 			</div>
 			<nav class = "bottom-header">
 				<ul class = "nav">
-					<li><a href="#">Каталог</a></li>
+					<li class = "current"><a href="<?=get_home_url();?>">Каталог</a></li>
 					<li><a href="#">Прайс-лист</a></li>
 					<li><a href="#">Доставка</a></li>
 					<li><a href="#">Карта нефтебаз</a></li>

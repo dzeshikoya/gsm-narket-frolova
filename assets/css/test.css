@@ -200,6 +200,27 @@ header{
 }
 
 
+.current::after{
+  /* color: red; */
+  position:absolute;
+  content: '';
+  width: 4.5em;
+  background-color: #2392B5;
+  height: 2px;
+  /* margin: 8px 0 auto; */
+
+  /* margin-top:8px;
+  margin-bottom:8px; */
+  display: block;
+}
+
+
+/* .nav li.current_page_item a{
+  
+  color: red!important;
+} */
+
+
 
 
 .navigation-order-button {
@@ -228,6 +249,8 @@ header{
 
 
 .to-order-background{
+  
+  background-image: url('../img/banner-truck-1.png'); 
   
   background-repeat: no-repeat;
   background-position: center center;
@@ -477,6 +500,26 @@ header{
 	line-height: 22px;    
 }
 
+
+.checkbox-other span:before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url('../img/checkbox-empty.png') 0 0 no-repeat;
+  transition: background 0.3s ease;
+  
+}
+
+/* Checked */
+.checkbox-other input[type=checkbox]:checked + span:before {
+  background-image: url('../img/checkbox-checked.png');
+}
+
+
  
 
  
@@ -654,6 +697,11 @@ header{
   width:275px;
 }
 .way-5{
+  
+  background-image: url('../img/oil-rectangle.png'); 
+  border-style: none;
+  
+  
   border-radius:110px;
   width:570px;
   
@@ -669,6 +717,12 @@ header{
   border-radius:12px;
   width:275px;
   margin-left:1em;
+
+  padding-top:55px!important;
+  padding-bottom:55px!important;
+  box-sizing: padding-box;
+  
+  /* height:165px!important; */
 }
 
 .mouse-pointer{
@@ -908,7 +962,9 @@ div.figure p{
   /* position: relative; */
   height:105px;
 
-  margin-left:18px;
+  /* margin-left:18px; */
+/* padding-left:18px; */
+padding-left:28px;
 
   /* border: 1px solid red; */
 
@@ -990,8 +1046,13 @@ div.figure p{
 .first-line{
   text-transform: uppercase;
   font-size:16px;
+  width:276px;
 
   /* border: 1px solid red; */
+
+}
+
+.first-line{
 
 }
 
@@ -1049,7 +1110,7 @@ div.figure p{
 
 }
 
-.about-company-titles h1{
+.about-company-titles h2{
   /* width:auto; */
   width:309px;
   height:49px;
@@ -1084,6 +1145,8 @@ div.figure p{
 
 
 .our-policy-background{
+  
+  background-image: url('../img/banner-truck-2.png');
   
   background-repeat: no-repeat;
   background-position: center center;
